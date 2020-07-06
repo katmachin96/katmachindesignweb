@@ -1,0 +1,27 @@
+{
+  "particles":{
+    "number":{
+      "value":140
+    },
+    "color":{
+      "value": ["#ff7272", "#f9c904", "#3479f0"],
+      "opacity": 0.2
+    },
+    "size":{
+      "value":10,
+      "random":false,
+      "anim":{
+        "enable":true,
+        "speed":10
+      }
+    },
+
+  "line_linked": {
+      "enable": true,
+      "distance": 80,
+      "color": "#8EC9BB",
+      "opacity": 1,
+      "width": 1
+    }
+  }
+}

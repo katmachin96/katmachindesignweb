@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;600&display=swap');
+
+/* !!!!!!!!!!!!!!!!!!! Nav Bar !!!!!!!!!!!!!!!!! */
+#navbar{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+#navbar a{
+  font-family: 'Ruda', sans-serif;
+  margin-left: 18vh;
+
+}
+
+/* !!!!!!!!!!!!!!!!!!! Main Body !!!!!!!!!!!!!!!!! */
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* !!!! Header !!!!! */
+.mainHeader{
+}
+
+.headerText{
+  position: absolute;
+  z-index: 10;
+  margin-left: 10%;
+  margin-top: 15%;
+  margin-right: 30%;
+
+}
+.text-n-img{
+display:inline-flex;
+}
+
+.emoji{
+  height: 120px;
+  width: auto;
+  margin-top: 1.5vh;
+  margin-left: 40px;
+}
+
+.headerText1{
+  color: #3479f0;
+  font-family: 'Aclonica', sans-serif;
+  font-weight: 600;
+  font-size: 5em;
+
+}
+.headerText2{
+   color: grey;
+  font-size: 1.7em;
+
+
+}
+
+.about-btn{
+  padding: 15px;
+  border-radius: 0.5em;
+  background-color: transparent;
+  border: 2px solid #3479f0;
+  color: #3479f0;
+  font-size: 15px;
+  margin-right: 3vw;
+}
+.contact-btn{
+  padding: 15px;
+  border-radius: 0.5em;
+  background-color: transparent;
+  border: 2px solid #ff7272;
+  color:#3479f0;
+  font-size: 15px;
+}
+
+
+.body-text{
+  font-size: 16px;
+
+}
+
+#particles-js{
+    background-color: white;
+    height: 650px;
+}
+
+/* !!!! Highlights section !!!!! */
+
+
+.highlight-header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Ruda', sans-serif;
+  font-size: 25px;
+  margin-top: 5%;
+
+}
+
+
+.Highlights-cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 10%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+.card:hover{
+  -webkit-transition: all .3s ease-in;
+  -moz-transition: all .3s ease-in;
+  -ms-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+  opacity: 1;
+  transform: scale(1.1);
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1);
+  margin: 15px;
+}
+/* !!!!!!!!!!!!!!!!!!! Footer !!!!!!!!!!!!!!!!! */
+
+.footer-bar{
+  height: 12vh;
+  width: 100%;
+  bottom: 0;
+  background-color: #F7F7F7 ;
+  font-family: 'Ruda', sans-serif;
+  display: inline-flex;
+  margin-right: 5%;
+  margin-top: 10%;
+}
+
+.footer-text{
+  font-weight: 400;
+  padding-top: 20px;
+  padding-left: 10%;
+  color: grey;
+  font-size: 13px;
+}
+
+.footer-socials{
+  padding-top: 20px;
+  margin-left: 55%;
+  justify-content: flex-end;
+}
+
+.sm-icon{
+height: 25px;
+width: auto;
+margin-right: 10px;
+}
+/* !!!!!!!!!!! Responsive Mobile & Ipad !!!!!!!!!!!! */
+
+@media only screen and (max-width: 900px) {
+#row-fix .card{
+  margin-left: 20%;
+}
+
+.footer-socials{
+  margin-left: 35%;
+}
+
+
+.headerText1{
+  font-size: 4.5em;
+  margin-left: 5%;
+  margin-right: -4rem;
+}
+.emoji{
+  margin-left: 10px;
+
+
+}
+.headerText{
+  margin-right: 5%;
+}
+.headerText2{
+  font-size: 1.3em;
+  padding-bottom: 20px;
+}
+
+#particles-js{
+  height: 540px;
+}
+}
+@media only screen and (max-width: 900px) {
+  .footer-socials{
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer-socials{
+    margin-left: 10%;
+  }
+}

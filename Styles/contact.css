@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;600&display=swap');
+
+/* !!!!!!!!!!!!!!!!!!! Nav Bar !!!!!!!!!!!!!!!!! */
+#navbar{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+
+}
+
+#navbar a{
+  font-family: 'Ruda', sans-serif;
+  margin-left: 18vh;
+
+}
+
+
+/* !!!!!!!!!!!!!!!!!!! Main Body !!!!!!!!!!!!!!!!! */
+
+main{
+  padding-top: 10%;
+}
+.cont-icon{
+  width: auto;
+  height: 70px;
+  margin-right: 20px;
+  margin-top: -30px;
+}
+.header-text{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Ruda', sans-serif;
+  margin-bottom: 20px;
+}
+
+.sub-text{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Ruda', sans-serif;
+    margin-bottom: 20px;
+}
+.header-text h1{
+    font-size: 25px;
+}
+
+.contact-info-columns{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.cont-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+
+}
+
+.message-form{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+  height: 600;
+  background-color:  #F0F0F0;
+  padding: 20px;
+  padding-left: 5%;
+  padding-right: 10%;
+  border-radius: 0.5em;
+}
+
+.message-form input{
+width:100%;
+margin: 10px;
+height: 40px;
+border-radius: 0.2em;
+display: flex;
+justify-content: center;
+border: 1px solid #CACACA;
+
+}
+
+.snd-mssg-bt{
+  grid-row-start: 5;
+}
+
+.snd-mssg-bt{
+  font-size: 12px;
+  margin-top: 50px;
+}
+
+.mess-in input{
+  padding-bottom: 200px;
+  padding-top: 20px;
+}
+
+::placeholder{
+
+  padding-left:10px;
+}
+.location{
+    background-color:  #F0F0F0;
+    padding-left: 20px;
+    width: 100%;
+    height: 120px;
+
+}
+
+.email{
+  background-color:  #F0F0F0;
+  padding-left: 20px;
+  width: 100%;
+  height: 120px;
+}
+
+.Phone-Number{
+  background-color:  #F0F0F0;
+  padding-left: 20px;
+  width: 100%;
+  height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!! Footer !!!!!!!!!!!!!!!!! */
+
+footer{
+  padding-top: 10%;
+}
+
+.footer-bar{
+  height: 70px;
+  width: 100%;
+  margin-top: 50px;
+  background-color: #F7F7F7 ;
+  font-family: 'Ruda', sans-serif;
+  display: inline-flex;
+    z-index: 10000;
+}
+
+.footer-text{
+  font-weight: 400;
+  padding-top: 20px;
+  padding-left: 10%;
+  color: grey;
+  font-size: 13px;
+}
+
+.footer-socials{
+  padding-top: 20px;
+  margin-left: 55%;
+
+  justify-content: flex-end;
+}
+
+.sm-icon{
+height: 25px;
+width: auto;
+margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+.cont-grid{
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+}
+
+.contact-info-columns{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-info-columns p {
+  font-size: 14px;
+}
+
+main{
+  padding-top: 20%;
+}
+.footer-socials{
+  margin-left: 35%;
+}
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .footer-socials{
+    margin-left: 15%;
+  }
+}
