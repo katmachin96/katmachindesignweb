@@ -19,6 +19,10 @@
 
 /* !!!!!!!!!!!!!!!!!!! Main Body !!!!!!!!!!!!!!!!! */
 
+a {
+  text-decoration: none;
+}
+
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -134,13 +138,14 @@ justify-content: center;
 }
 
 .c-study{
-  background-color: #CCCCFF;
+  background-color: transparent;
   height:auto;
   width: 120px;
-  border-radius: 0.5rem;
+  border-radius: 0.4rem;
   font-size: 12px;
   padding-left: 30px;
-  color:#000066;
+  color:#9F33FF  ;
+  border: 1px solid #9F33FF  ;
 }
 
 .f-lance{
