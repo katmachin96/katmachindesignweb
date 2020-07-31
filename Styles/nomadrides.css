@@ -389,6 +389,11 @@
 
 }
 
+.ref-icons img{
+  height: 70px;
+  width: auto;
+  padding: 10px;
+}
 
 
 /* !!!!!!!!!!!!!!!!!!! Top up Button !!!!!!!!!!!!!!!!! */

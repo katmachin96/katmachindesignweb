@@ -322,7 +322,9 @@ section{
 }
 
 .closing h2{
-  font-size: 18px;
+  font-size: 22px;
+  padding-bottom: 10px;
+  padding-top: 20px;
 }
 
 .cls{
@@ -331,6 +333,12 @@ section{
   grid-column-gap: 40px;
   margin-top: 20px;
 
+}
+
+.ref-icons img{
+  height: 70px;
+  width: auto;
+  padding: 10px;
 }
 
 /* -------  lower corner button ------- */
