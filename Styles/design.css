@@ -141,7 +141,7 @@ justify-content: center;
   background-color: transparent;
   height:auto;
   width: 120px;
-  border-radius: 0.4rem;
+  border-radius: 0.2rem;
   font-size: 12px;
   padding-left: 30px;
   color:#9F33FF  ;
@@ -149,23 +149,25 @@ justify-content: center;
 }
 
 .f-lance{
-  background-color:#CCFFFF;
+  background-color: transparent;
   height:auto;
   width: 120px;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   font-size: 12px;
   padding-left: 30px;
-  color:#000066;
+  color:#0265FF   ;
+  border: 1px solid #0265FF  ;
 }
 
 .g-proj{
-  background-color:#FFFF66;
+  background-color: transparent;
   height:auto;
   width: 120px;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   font-size: 12px;
-  padding-left: 10px;
-  color:#000066;
+  padding-left: 15px;
+  color:#01B94F  ;
+  border: 1px solid #01B94F    ;
 
 }
 

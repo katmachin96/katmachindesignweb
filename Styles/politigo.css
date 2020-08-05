@@ -15,9 +15,12 @@
   grid-template-columns: 1fr 1.5fr;
 }
 
+.inro{
 
+}
 
 .back{
+  margin-top: 10PX;
   margin-top: 2%;
   padding-bottom: 30px;
   margin-left: 4%;
@@ -362,6 +365,27 @@ section{
   background-color: blue;
 }
 
+#sideBarScroll{
+  display: none;
+  position: fixed;
+  top: 100px;
+  left: 10px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #D2D2D2;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+
+}
+
+#sideBarScroll ul{
+  list-style-type: none;
+  text-decoration: none;
+}
 
 
 /* !!!!!!!!!!!!!!!!!!! Footer !!!!!!!!!!!!!!!!! */
