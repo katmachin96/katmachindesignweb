@@ -16,6 +16,10 @@
 
 }
 
+.card-hov a {
+  text-decoration: none;
+}
+
 
 /* !!!!!!!!!!!!!!!!!!! Main Body !!!!!!!!!!!!!!!!! */
 
@@ -162,7 +166,7 @@ justify-content: center;
 .g-proj{
   background-color: transparent;
   height:auto;
-  width: 120px;
+  width: 90px;
   border-radius: 0.2rem;
   font-size: 12px;
   padding-left: 15px;
