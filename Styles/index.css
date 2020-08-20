@@ -37,9 +37,9 @@ display:inline-flex;
 }
 
 .emoji{
-  height: 15vh;
+  height: 5em;
   width: auto;
-  margin-top: 1.5vh;
+  margin-top: 2vh;
   margin-left: 40px;
 
 }
@@ -48,7 +48,7 @@ display:inline-flex;
   color: #3479f0;
   font-family: 'Aclonica', sans-serif;
   font-weight: 600;
-  font-size: 5em;
+  font-size: 4em;
 
 
 }
@@ -146,18 +146,18 @@ display:inline-flex;
 
 .footer-socials{
   padding-top: 20px;
-  margin-left: 55%;
+  margin-left: 50%;
   justify-content: flex-end;
 }
 
 .sm-icon{
-height: 25px;
+height: 20px;
 width: auto;
 margin-right: 10px;
 }
 /* !!!!!!!!!!! Responsive Mobile & Ipad !!!!!!!!!!!! */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
 #row-fix .card{
   margin-left: 10%;
 }
@@ -168,15 +168,12 @@ margin-right: 10px;
 
 
 .headerText1{
-  font-size: 4.5em;
+  font-size: 3em;
   margin-left: 5%;
-  margin-right: -2rem;
   margin-top: 0.5em;
 }
 .emoji{
-  margin-left: 10px;
-
-
+margin-left: 10px;
 
 }
 .headerText{
@@ -188,7 +185,7 @@ margin-right: 10px;
 }
 
 #particles-js{
-  height: 540px;
+  height: 500px;
 }
 }
 @media only screen and (max-width: 900px) {
@@ -200,4 +197,10 @@ margin-right: 10px;
   .footer-socials{
     margin-left: 10%;
   }
+
+  .about-btn{
+    display:none;
+  }
+
+
 }
