@@ -29,7 +29,7 @@ body{
   z-index: 10;
   margin-left: 10%;
   margin-top: 15%;
-  margin-right: 30%;
+  margin-right: 20%;
 
 }
 .text-n-img{
@@ -37,10 +37,11 @@ display:inline-flex;
 }
 
 .emoji{
-  height: 15.5vh;
+  height: 15vh;
   width: auto;
   margin-top: 1.5vh;
   margin-left: 40px;
+
 }
 
 .headerText1{
@@ -48,6 +49,7 @@ display:inline-flex;
   font-family: 'Aclonica', sans-serif;
   font-weight: 600;
   font-size: 5em;
+
 
 }
 .headerText2{
@@ -73,6 +75,7 @@ display:inline-flex;
   border: 2px solid #ff7272;
   color:#3479f0;
   font-size: 15px;
+  margin-top: 20px;
 }
 
 
@@ -156,7 +159,7 @@ margin-right: 10px;
 
 @media only screen and (max-width: 900px) {
 #row-fix .card{
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .footer-socials{
@@ -167,15 +170,17 @@ margin-right: 10px;
 .headerText1{
   font-size: 4.5em;
   margin-left: 5%;
-  margin-right: -4rem;
+  margin-right: -2rem;
+  margin-top: 0.5em;
 }
 .emoji{
   margin-left: 10px;
 
 
+
 }
 .headerText{
-  margin-right: 5%;
+
 }
 .headerText2{
   font-size: 1.3em;
